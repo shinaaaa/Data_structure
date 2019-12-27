@@ -2,7 +2,7 @@
 
 * 출처 : https://image.shutterstock.com/image-vector/illustration-stickman-kids-queue-taking-260nw-1542791690.jpg
 
-###큐(Queue)
+#### 큐(Queue)
 
 - 줄서는 행위와 유사함
 
@@ -10,25 +10,23 @@
 - 가장 먼저 넣은 데이터를 가장 먼저 꺼내는 선입선출(FIFO : First In First Out) 구조
 - 시연해보며 이해보기 : https://visualgo.net/en/list
 
-####인큐(Enqueue)
+#### 인큐(Enqueue)
 
 - 데이터를 넣는 작업
 
-####디큐(Dequeue)
+#### 디큐(Dequeue)
 
 - 데이터를 꺼내는 작업
 
-####프론트 (Front)
+#### 프론트 (Front)
 
 - 데이터를 꺼내는 쪽
 
-####리어(Rear)
+#### 리어(Rear)
 
 - 데이터를 넣는 쪽
 
-
-
-#####Java
+##### Java
 
 ```java
 import java.util.*;
@@ -72,7 +70,7 @@ public class ExQueue {
 
 
 
-#####Python
+##### Python
 
 ```python
 import queue

@@ -1,27 +1,27 @@
 <img src="https://user-images.githubusercontent.com/37543606/72056423-eb188480-330f-11ea-9525-f5ea89f5b4cd.jpeg"/>
 
+
+
 이미지 출처 : https://www.educative.io/edpresso/how-to-check-if-a-binary-tree-is-a-binary-search-tree
 
 
 
-이진 트리 (Binary Tree) 와 이진 검색 트리 (Binary Search Tree)
-
-
-
-이진트리 (Binary Tree)
+####이진트리 (Binary Tree)
 
 - 노드가 왼쪽 자식과 오른쪽 자식을 갖는 트리
 - 노드 최대 Branch가 2인 트리
 
 
 
-이진 검색 트리 (Binary Search Tree)
+####이진 검색 트리 (Binary Search Tree)
 
 - 어떤 노드 N을 기준으로 왼쪽 서브 트리 노드의 모든 키 값은 노드 N의 키 값보다 작음
 - 오른쪽 서비 트리 노드의 키 값은 노드 N의 키 값보다 큼
 - 같은 키 값을 갖는 노드는 없음
 
-이진 검색 트리의 시간 복잡도
+
+
+####이진 검색 트리의 시간 복잡도
 
 - 트리의 높이 (Depth) 를 h라고 표기한다면 O(h)
 
@@ -33,7 +33,7 @@
   >
   > 즉, 50%의 실행시간을 단축
 
-장/단점
+####장/단점
 
 - 장점
 
@@ -53,7 +53,7 @@
 
 
 
-Python
+#####Python
 
 ```python
 class Node:
@@ -107,4 +107,3 @@ BST.insert(8)
 print(BST.search(-1))
 print(BST.search(0))
 ```
-
